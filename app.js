@@ -69,8 +69,6 @@ const book = new Book (title , author , isbn);
 //Instantiate UI
 const ui = new UI();
 
-console.log(ui)
-
 //Validate 
 if (title === '' || author === '' || isbn === '' ) {
   // Error alert 
